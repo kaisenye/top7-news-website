@@ -12,10 +12,13 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
+      {/* navbar */}
       <Navbar />
+
+      {/* routes */}
       <Router>
         <Routes>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact element={<Home />} />
           {/* <Route path="/category/:id" component={CategoryPage} />
           <Route path="/article/:id" component={ArticlePage} /> */}
         </Routes>

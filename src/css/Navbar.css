@@ -22,13 +22,17 @@
 
 .navbar-bottom {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    gap: 4%;
 }
 
 .navbar-date-container {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 .navbar-date {
