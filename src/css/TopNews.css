@@ -95,7 +95,10 @@
 
 /* hover effect */
 .top-news-left:hover, .top-news-right-item:hover {
-    transition: all 0.3s ease;
+    background-color: white;
+    transform: translateY(-5px);
+    -webkit-transition: all 0.3s ease-in-out; /* For Safari */
+    transition: all 0.3s ease-in-out;
 }
 
 

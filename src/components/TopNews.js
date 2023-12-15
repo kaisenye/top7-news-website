@@ -12,6 +12,7 @@ import image3 from '../assets/img3.png';
 const TopNews = () => {
     return (
         <div className='top-news'>
+            {/* headline news */}
             <div className="top-news-left">
                 <div className="top-news-left-img">
                     <img src={image1} alt="Image 1" />
@@ -23,6 +24,8 @@ const TopNews = () => {
                     The labor market is once again showing it's got grit.
                 </div>
             </div>
+
+            {/* other news */}
             <div className="top-news-right">
                 <div className="top-news-right-item">
                     <div className="top-news-right-text">
